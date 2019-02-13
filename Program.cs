@@ -12,7 +12,9 @@ namespace LearningProject
         {
             //Chapter_1.UniqueStr.RunUniqueStr();
             //Chapter_1.Reverse.RunReverse();
-            Chapter_1.Permutation.RunPermutation();
+            //Chapter_1.Permutation.RunPermutation();
+            //Chapter_1.SpaceReplace.RunSpaceReplace();
+            Chapter_1.StringCompression.RunStringCompression();
 
             Console.Read();
         }

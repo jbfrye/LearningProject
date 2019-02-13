@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Chapter 1\Permutation.cs" />
     <Compile Include="Chapter 1\Reverse.cs" />
+    <Compile Include="Chapter 1\SpaceReplace.cs" />
+    <Compile Include="Chapter 1\StringCompression.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort.cs" />
