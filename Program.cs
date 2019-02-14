@@ -14,7 +14,10 @@ namespace LearningProject
             //Chapter_1.Reverse.RunReverse();
             //Chapter_1.Permutation.RunPermutation();
             //Chapter_1.SpaceReplace.RunSpaceReplace();
-            Chapter_1.StringCompression.RunStringCompression();
+            //Chapter_1.StringCompression.RunStringCompression();
+            //Chapter_1.RotateMatrix.RunRotateMatrix();
+            //Chapter_1.ZeroMatrixSection.RunZeroMatrixSection();
+            Chapter_1.IsStringRotation.RunIsStringRotation();
 
             Console.Read();
         }
