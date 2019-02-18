@@ -50,6 +50,12 @@
     <Compile Include="Chapter 1\SpaceReplace.cs" />
     <Compile Include="Chapter 1\StringCompression.cs" />
     <Compile Include="Chapter 1\ZeroMatrixSection.cs" />
+    <Compile Include="Chapter 2\DeleteListNodeWithoutHead.cs" />
+    <Compile Include="Chapter 2\ListKtoLast.cs" />
+    <Compile Include="Chapter 2\PartitionList.cs" />
+    <Compile Include="Chapter 2\RemoveListDuplicates.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="Map.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort.cs" />

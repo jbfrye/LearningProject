@@ -17,7 +17,11 @@ namespace LearningProject
             //Chapter_1.StringCompression.RunStringCompression();
             //Chapter_1.RotateMatrix.RunRotateMatrix();
             //Chapter_1.ZeroMatrixSection.RunZeroMatrixSection();
-            Chapter_1.IsStringRotation.RunIsStringRotation();
+            //Chapter_1.IsStringRotation.RunIsStringRotation();
+
+            //Chapter_2.RemoveListDuplicates.RunRemoveListDuplicates();
+            //Chapter_2.ListKtoLast.RunListKtoLast();
+            Chapter_2.DeleteListNodeWithoutHead.RunDeleteListNodeWithoutHead();
 
             Console.Read();
         }
