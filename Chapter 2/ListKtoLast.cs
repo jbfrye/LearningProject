@@ -14,7 +14,7 @@ namespace LearningProject.Chapter_2
 
         public static void RunListKtoLast()
         {
-            List list = new List();
+            List<int> list = new List<int>();
             list.Add(3);
             list.Add(3);
             list.Add(2);
@@ -38,10 +38,10 @@ namespace LearningProject.Chapter_2
             Console.WriteLine("The 6th element from the end is: " + GetKtoLastElementEfficient(list, 6));
         }
 
-        public static int GetKtoLastElement(List list, int k)
+        public static int GetKtoLastElement(List<int> list, int k)
         {
-            Node n = list.Head();
-            Node end = null;
+            Node<int> n = list.GetHead();
+            Node<int> end = null;
             for (int i = 0; i < k; i++)
             {
                 while (n.next != end)
@@ -49,16 +49,16 @@ namespace LearningProject.Chapter_2
                     n = n.next;
                 }
                 end = n;
-                n = list.Head();
+                n = list.GetHead();
             }
 
             return end.data;
         }
 
-        public static int GetKtoLastElementEfficient(List list, int k)
+        public static int GetKtoLastElementEfficient(List<int> list, int k)
         {
-            Node n = list.Head();
-            Node m = list.Head();
+            Node<int> n = list.GetHead();
+            Node<int> m = list.GetHead();
 
             for (int i = 0; i < k; i++)
             {

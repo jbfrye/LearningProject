@@ -6,33 +6,44 @@ using System.Threading.Tasks;
 
 namespace LearningProject
 {
-    public class List
+    public class List<T>
     {
-        Node head = null;
+        Node<T> head = null;
         public List()
         { }
 
-        public void Add(int d)
+        public void Add(T d)
         {
-            Node newNode = new Node(d);
+            Node<T> newNode = new Node<T>(d);
             if (head == null)
                 head = newNode;
             else
             {
-                Node n = head;
+                Node<T> n = head;
                 while (n.next != null)
-                {
                     n = n.next;
-                }
                 n.next = newNode;
             }
         }
 
-        public bool DeleteNode(int d)
+        public void Add(Node<T> n)
         {
-            Node tempNode = head;
+            if (head == null)
+                head = n;
+            else
+            {
+                Node<T> temp = head;
+                while (temp.next != null)
+                    temp = temp.next;
+                temp.next = n;
+            }
+        }
+
+        public bool DeleteNode(T d)
+        {
+            Node<T> tempNode = head;
             // Check if the head is the node to delete
-            if (head.data == d)
+            if (Object.Equals(head.data, d))
             {
                 head = head.next;
                 return true;
@@ -41,7 +52,7 @@ namespace LearningProject
             // Check the List for the node to delete and return true if it's found
             while (tempNode.next != null)
             {
-                if (tempNode.next.data == d)
+                if (Object.Equals(tempNode.next.data, d))
                 {
                     tempNode.next = tempNode.next.next;
                     return true;
@@ -56,7 +67,7 @@ namespace LearningProject
 
         public void PrintList()
         {
-            Node n = head;
+            Node<T> n = head;
             while (n != null)
             {
                 Console.Write(n.data + " ");
@@ -65,18 +76,23 @@ namespace LearningProject
             Console.WriteLine();
         }
 
-        public Node Head()
+        public Node<T> GetHead()
         {
             return head;
         }
+
+        public void SetHead(Node<T> n)
+        {
+            head = n;
+        }
     }
 
-    public class Node
+    public class Node<T>
     {
-        public Node next = null;
-        public int data;
+        public Node<T> next = null;
+        public T data;
 
-        public Node(int d)
+        public Node(T d)
         {
             data = d;
         }

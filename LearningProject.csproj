@@ -51,7 +51,10 @@
     <Compile Include="Chapter 1\StringCompression.cs" />
     <Compile Include="Chapter 1\ZeroMatrixSection.cs" />
     <Compile Include="Chapter 2\DeleteListNodeWithoutHead.cs" />
+    <Compile Include="Chapter 2\FindLoopBeginning.cs" />
+    <Compile Include="Chapter 2\LinkedListAddition.cs" />
     <Compile Include="Chapter 2\ListKtoLast.cs" />
+    <Compile Include="Chapter 2\ListPalindrome.cs" />
     <Compile Include="Chapter 2\PartitionList.cs" />
     <Compile Include="Chapter 2\RemoveListDuplicates.cs" />
     <Compile Include="List.cs" />

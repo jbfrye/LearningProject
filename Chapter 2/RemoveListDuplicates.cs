@@ -14,7 +14,7 @@ namespace LearningProject.Chapter_2
 
         public static void RunRemoveListDuplicates()
         {
-            List list = new List();
+            List<int> list = new List<int>();
             list.Add(3);
             list.Add(3);
             list.Add(2);
@@ -39,12 +39,12 @@ namespace LearningProject.Chapter_2
             list.PrintList();
         }
 
-        public static void RemoveDuplicates(List list)
+        public static void RemoveDuplicates(List<int> list)
         {
             Map entries = new Map();
 
-            Node n = list.Head();
-            Node prev = null;
+            Node<int> n = list.GetHead();
+            Node<int> prev = null;
             while (n != null)
             {
                 if (entries.Get(n.data.ToString()) != -1)
@@ -60,10 +60,10 @@ namespace LearningProject.Chapter_2
             }
         }
 
-        public static void RemoveDuplicatesLessData(List list)
+        public static void RemoveDuplicatesLessData(List<int> list)
         {
-            Node n = list.Head();
-            Node run = null;
+            Node<int> n = list.GetHead();
+            Node<int> run = null;
             while (n != null)
             {
                 run = n;

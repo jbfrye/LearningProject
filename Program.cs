@@ -21,7 +21,11 @@ namespace LearningProject
 
             //Chapter_2.RemoveListDuplicates.RunRemoveListDuplicates();
             //Chapter_2.ListKtoLast.RunListKtoLast();
-            Chapter_2.DeleteListNodeWithoutHead.RunDeleteListNodeWithoutHead();
+            //Chapter_2.DeleteListNodeWithoutHead.RunDeleteListNodeWithoutHead();
+            //Chapter_2.PartitionList.RunPartitionList();
+            //Chapter_2.LinkedListAddition.RunLinkedListAddition();
+            //Chapter_2.FindLoopBeginning.RunFindLoopBeginning();
+            Chapter_2.ListPalindrome.RunListPalindrome();
 
             Console.Read();
         }

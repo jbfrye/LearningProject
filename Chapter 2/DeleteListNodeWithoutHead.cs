@@ -14,7 +14,7 @@ namespace LearningProject.Chapter_2
 
         public static void RunDeleteListNodeWithoutHead()
         {
-            List list = new List();
+            List<int> list = new List<int>();
             list.Add(3);
             list.Add(3);
             list.Add(2);
@@ -34,14 +34,14 @@ namespace LearningProject.Chapter_2
             list.Add(5);
             list.Add(3);
             list.PrintList();
-            Node node = list.Head();
+            Node<int> node = list.GetHead();
             for (int i = 0; i < 8; i++)
                 node = node.next;
             DeleteNode(node); // Delete 2
             list.PrintList();
         }
 
-        public static void DeleteNode(Node n)
+        public static void DeleteNode(Node<int> n)
         {
             n.data = n.next.data;
             n.next = n.next.next;

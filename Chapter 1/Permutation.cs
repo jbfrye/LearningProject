@@ -39,10 +39,9 @@ namespace LearningProject.Chapter_1
             if (str1.Length != str2.Length)
                 return false;
             char[] arrStr1 = str1.ToLower().ToCharArray(), arrStr2 = str2.ToLower().ToCharArray();
-            Sort sort = new Sort();
 
-            sort.QuickSort(arrStr1);
-            sort.QuickSort(arrStr2);
+            Sort.QuickSort(arrStr1);
+            Sort.QuickSort(arrStr2);
 
             for (int i = 0; i < arrStr1.Length; i++)
             {

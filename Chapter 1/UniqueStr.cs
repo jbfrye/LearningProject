@@ -11,18 +11,15 @@ namespace LearningProject.Chapter_1
     {
         string str;
         bool[] alphabet = new bool[26];
-        Sort sort;
 
         public UniqueStr()
         {
             str = "";
-            sort = new Sort();
         }
 
         public UniqueStr(string s)
         {
             str = s;
-            sort = new Sort();
         }
 
         public static void RunUniqueStr()
@@ -84,7 +81,7 @@ namespace LearningProject.Chapter_1
 
             char[] tempStr = str.ToLower().ToCharArray();
 
-            sort.QuickSort(tempStr);
+            Sort.QuickSort(tempStr);
 
             for (int i = 0; i < tempStr.Length-1; i++)
             {
