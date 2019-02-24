@@ -25,7 +25,11 @@ namespace LearningProject
             //Chapter_2.PartitionList.RunPartitionList();
             //Chapter_2.LinkedListAddition.RunLinkedListAddition();
             //Chapter_2.FindLoopBeginning.RunFindLoopBeginning();
-            Chapter_2.ListPalindrome.RunListPalindrome();
+            //Chapter_2.ListPalindrome.RunListPalindrome();
+
+            //Chapter_3.TripleStack<int>.RunTripleStack();
+            //Chapter_3.MinStack.RunMinStack();
+            Chapter_3.SetOfStacks.RunSetOfStacks();
 
             Console.Read();
         }
