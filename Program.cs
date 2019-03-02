@@ -29,7 +29,10 @@ namespace LearningProject
 
             //Chapter_3.TripleStack<int>.RunTripleStack();
             //Chapter_3.MinStack.RunMinStack();
-            Chapter_3.SetOfStacks.RunSetOfStacks();
+            //Chapter_3.SetOfStacks.RunSetOfStacks();
+            //Chapter_3.TowersOfHanoi.RunTowerOfHanoi();
+            //Chapter_3.MyQueue.RunMyQueue();
+            Chapter_3.StackSort.RunStackSort();
 
             Console.Read();
         }

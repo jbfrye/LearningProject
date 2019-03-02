@@ -58,7 +58,10 @@
     <Compile Include="Chapter 2\PartitionList.cs" />
     <Compile Include="Chapter 2\RemoveListDuplicates.cs" />
     <Compile Include="Chapter 3\MinStack.cs" />
+    <Compile Include="Chapter 3\MyQueue.cs" />
     <Compile Include="Chapter 3\SetOfStacks.cs" />
+    <Compile Include="Chapter 3\StackSort.cs" />
+    <Compile Include="Chapter 3\TowersOfHanoi.cs" />
     <Compile Include="Chapter 3\TripleStack.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />
