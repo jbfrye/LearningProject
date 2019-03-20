@@ -32,7 +32,11 @@ namespace LearningProject
             //Chapter_3.SetOfStacks.RunSetOfStacks();
             //Chapter_3.TowersOfHanoi.RunTowerOfHanoi();
             //Chapter_3.MyQueue.RunMyQueue();
-            Chapter_3.StackSort.RunStackSort();
+            //Chapter_3.StackSort.RunStackSort();
+            //Chapter_3.PetQueue.RunPetQueue();
+
+            //Chapter_4.BinaryTreeBalanced.RunBinaryTreeBalanced();
+            Chapter_4.DirectedGraphRoute.RunDirectedGraphRoute();
 
             Console.Read();
         }
