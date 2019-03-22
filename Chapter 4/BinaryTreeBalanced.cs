@@ -70,10 +70,16 @@ namespace LearningProject.Chapter_4
         }
     }
 
-    class TreeNode
+    public class TreeNode
     {
+        public enum State
+        {
+            Unvisited, Visited, Visiting,
+        }
+
         public TreeNode parent, leftChild, rightChild;
-        public int value;
+        public int value, level;
+        public State state;
 
         public TreeNode(int v)
         {
@@ -81,6 +87,8 @@ namespace LearningProject.Chapter_4
             leftChild = null;
             rightChild = null;
             value = v;
+            state = State.Unvisited;
+            level = 0;
         }
         public TreeNode(TreeNode p, int v)
         {
@@ -88,6 +96,8 @@ namespace LearningProject.Chapter_4
             leftChild = null;
             rightChild = null;
             value = v;
+            state = State.Unvisited;
+            level = p.level + 1;
         }
 
         public void AddLeftChild(TreeNode node)
@@ -95,6 +105,7 @@ namespace LearningProject.Chapter_4
             if (leftChild == null)
             {
                 node.parent = this;
+                node.level = this.level + 1;
                 leftChild = node;
             }
         }
@@ -104,17 +115,49 @@ namespace LearningProject.Chapter_4
             if (rightChild == null)
             {
                 node.parent = this;
+                node.level = this.level + 1;
                 rightChild = node;
             }
         }
 
         public void PrintTree()
         {
-            if (leftChild != null)
-                leftChild.PrintTree();
-            Console.WriteLine(value);
-            if (rightChild != null)
-                rightChild.PrintTree();
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+
+            this.state = State.Visiting;
+            queue.Enqueue(this);
+            TreeNode node;
+            int lvl = 0;
+            while (queue.Count > 0)
+            {
+                node = queue.Dequeue();
+                if (node != null)
+                {
+                    if (node.level != lvl)
+                    {
+                        Console.WriteLine();
+                        lvl = node.level;
+                    }
+                    Console.Write(node.value);
+                    if (node.leftChild != null)
+                    {
+                        if (node.leftChild.state == State.Unvisited)
+                        {
+                            node.leftChild.state = State.Visiting;
+                            queue.Enqueue(node.leftChild);
+                        }
+                    }
+                    if (node.rightChild != null)
+                    {
+                        if (node.rightChild.state == State.Unvisited)
+                        {
+                            node.rightChild.state = State.Visiting;
+                            queue.Enqueue(node.rightChild);
+                        }
+                    }
+                    node.state = State.Visited;
+                }
+            }
         }
     }
 }

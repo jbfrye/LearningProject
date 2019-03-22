@@ -36,7 +36,8 @@ namespace LearningProject
             //Chapter_3.PetQueue.RunPetQueue();
 
             //Chapter_4.BinaryTreeBalanced.RunBinaryTreeBalanced();
-            Chapter_4.DirectedGraphRoute.RunDirectedGraphRoute();
+            //Chapter_4.DirectedGraphRoute.RunDirectedGraphRoute();
+            Chapter_4.CreateBinarySearchTree.RunCreateBinarySearchTree();
 
             Console.Read();
         }
