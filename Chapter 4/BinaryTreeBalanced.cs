@@ -138,7 +138,7 @@ namespace LearningProject.Chapter_4
                         Console.WriteLine();
                         lvl = node.level;
                     }
-                    Console.Write(node.value);
+                    Console.Write(node.value + " ");
                     if (node.leftChild != null)
                     {
                         if (node.leftChild.state == State.Unvisited)

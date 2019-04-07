@@ -9,7 +9,7 @@ namespace LearningProject.Chapter_4
     // 4.3
     class CreateBinarySearchTree
     {
-        TreeNode root;
+        public TreeNode root;
         public CreateBinarySearchTree()
         {
             root = null;

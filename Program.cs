@@ -37,7 +37,13 @@ namespace LearningProject
 
             //Chapter_4.BinaryTreeBalanced.RunBinaryTreeBalanced();
             //Chapter_4.DirectedGraphRoute.RunDirectedGraphRoute();
-            Chapter_4.CreateBinarySearchTree.RunCreateBinarySearchTree();
+            //Chapter_4.CreateBinarySearchTree.RunCreateBinarySearchTree();
+            //Chapter_4.LevelLinkedLists.RunLevelLinkedLists();
+            //Chapter_4.IsBinarySearchTree.RunIsBinarySearchTree();
+            //Chapter_4.FindNext.RunFindNext();
+            //Chapter_4.CommonAncestor.RunCommonAncestor();
+            //Chapter_4.SubTree.RunSubTree();
+            Chapter_4.BinaryTreeSum.RunBinaryTreeSum();
 
             Console.Read();
         }
