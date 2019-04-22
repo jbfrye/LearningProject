@@ -73,6 +73,13 @@
     <Compile Include="Chapter 4\IsBinarySearchTree.cs" />
     <Compile Include="Chapter 4\LevelLinkedLists.cs" />
     <Compile Include="Chapter 4\SubTree.cs" />
+    <Compile Include="Chapter 5\BinaryDecimal.cs" />
+    <Compile Include="Chapter 5\BitInsertion.cs" />
+    <Compile Include="Chapter 5\BitsToConvert.cs" />
+    <Compile Include="Chapter 5\DrawLine.cs" />
+    <Compile Include="Chapter 5\FindMissingInteger.cs" />
+    <Compile Include="Chapter 5\NextBinaryNumber.cs" />
+    <Compile Include="Chapter 5\SwapBits.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />

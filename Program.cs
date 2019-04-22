@@ -43,7 +43,14 @@ namespace LearningProject
             //Chapter_4.FindNext.RunFindNext();
             //Chapter_4.CommonAncestor.RunCommonAncestor();
             //Chapter_4.SubTree.RunSubTree();
-            Chapter_4.BinaryTreeSum.RunBinaryTreeSum();
+            //Chapter_4.BinaryTreeSum.RunBinaryTreeSum();
+
+            //Chapter_5.BitInsertion.RunBitInsertion();
+            //Chapter_5.BinaryDecimal.RunBinaryDecimal();
+            //Chapter_5.NextBinaryNumber.RunNextBinaryNumber();
+            //Chapter_5.BitsToConvert.RunBitsToConvert();
+            //Chapter_5.SwapBits.RunSwapBits();
+            Chapter_5.FindMissingInteger.RunFindMissingInteger();
 
             Console.Read();
         }
