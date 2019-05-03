@@ -80,6 +80,11 @@
     <Compile Include="Chapter 5\FindMissingInteger.cs" />
     <Compile Include="Chapter 5\NextBinaryNumber.cs" />
     <Compile Include="Chapter 5\SwapBits.cs" />
+    <Compile Include="Chapter 7\BestLine.cs" />
+    <Compile Include="Chapter 7\IntegerOperations.cs" />
+    <Compile Include="Chapter 7\LineDivide.cs" />
+    <Compile Include="Chapter 7\LineIntersection.cs" />
+    <Compile Include="Chapter 7\PrimeNumber.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />

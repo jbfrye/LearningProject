@@ -50,7 +50,13 @@ namespace LearningProject
             //Chapter_5.NextBinaryNumber.RunNextBinaryNumber();
             //Chapter_5.BitsToConvert.RunBitsToConvert();
             //Chapter_5.SwapBits.RunSwapBits();
-            Chapter_5.FindMissingInteger.RunFindMissingInteger();
+            //Chapter_5.FindMissingInteger.RunFindMissingInteger();
+
+            //Chapter_7.LineIntersection.RunLineIntersection();
+            //Chapter_7.IntegerOperations.RunIntegerOperations();
+            //Chapter_7.LineDivide.RunLineDivide();
+            //Chapter_7.BestLine.RunBestLine();
+            Chapter_7.PrimeNumber.RunPrimeNumber();
 
             Console.Read();
         }
