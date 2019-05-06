@@ -56,7 +56,10 @@ namespace LearningProject
             //Chapter_7.IntegerOperations.RunIntegerOperations();
             //Chapter_7.LineDivide.RunLineDivide();
             //Chapter_7.BestLine.RunBestLine();
-            Chapter_7.PrimeNumber.RunPrimeNumber();
+            //Chapter_7.PrimeNumber.RunPrimeNumber();
+
+            //Chapter_8.CardDeck.RunCardDeck();
+            Chapter_8.CallCenter.RunCallCenter();
 
             Console.Read();
         }

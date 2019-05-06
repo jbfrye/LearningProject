@@ -85,6 +85,9 @@
     <Compile Include="Chapter 7\LineDivide.cs" />
     <Compile Include="Chapter 7\LineIntersection.cs" />
     <Compile Include="Chapter 7\PrimeNumber.cs" />
+    <Compile Include="Chapter 8\CallCenter.cs" />
+    <Compile Include="Chapter 8\CardDeck.cs" />
+    <Compile Include="Chapter 8\JukeBox.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />
