@@ -87,7 +87,12 @@
     <Compile Include="Chapter 7\PrimeNumber.cs" />
     <Compile Include="Chapter 8\CallCenter.cs" />
     <Compile Include="Chapter 8\CardDeck.cs" />
+    <Compile Include="Chapter 8\ChatServer.cs" />
     <Compile Include="Chapter 8\JukeBox.cs" />
+    <Compile Include="Chapter 8\OnlineBookReader.cs" />
+    <Compile Include="Chapter 8\Othello.cs" />
+    <Compile Include="Chapter 8\ParkingLot.cs" />
+    <Compile Include="Chapter 8\Puzzle.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />

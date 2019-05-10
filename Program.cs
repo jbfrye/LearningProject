@@ -59,7 +59,9 @@ namespace LearningProject
             //Chapter_7.PrimeNumber.RunPrimeNumber();
 
             //Chapter_8.CardDeck.RunCardDeck();
-            Chapter_8.CallCenter.RunCallCenter();
+            //Chapter_8.CallCenter.RunCallCenter();
+            //Chapter_8.OnlineBookReader.RunOnlineBookReader();
+            Chapter_8.Othello.RunOthello();
 
             Console.Read();
         }
