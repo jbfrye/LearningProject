@@ -61,7 +61,19 @@ namespace LearningProject
             //Chapter_8.CardDeck.RunCardDeck();
             //Chapter_8.CallCenter.RunCallCenter();
             //Chapter_8.OnlineBookReader.RunOnlineBookReader();
-            Chapter_8.Othello.RunOthello();
+            //Chapter_8.Othello.RunOthello();
+
+            //Chapter_9.Staircase.RunStaircase();
+            //Chapter_9.Robot.RunRobot();
+            //Chapter_9.MagicIndex.RunMagicIndex();
+            //Chapter_9.AllSubsets.RunAllSubsets();
+            //Chapter_9.StringPermutations.RunStringPermutations();
+            //Chapter_9.Parentheses.RunParentheses();
+            //Chapter_9.PaintFill.RunPaintFill();
+            //Chapter_9.Cents.RunCents();
+            //Chapter_9.ChessQueens.RunChessQueens();
+            //Chapter_9.BoxStack.RunBoxStack();
+            Chapter_9.BooleanExpression.RunBooleanExpression();
 
             Console.Read();
         }

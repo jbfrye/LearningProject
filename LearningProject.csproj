@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -93,6 +94,17 @@
     <Compile Include="Chapter 8\Othello.cs" />
     <Compile Include="Chapter 8\ParkingLot.cs" />
     <Compile Include="Chapter 8\Puzzle.cs" />
+    <Compile Include="Chapter 9\AllSubsets.cs" />
+    <Compile Include="Chapter 9\BooleanExpression.cs" />
+    <Compile Include="Chapter 9\BoxStack.cs" />
+    <Compile Include="Chapter 9\Cents.cs" />
+    <Compile Include="Chapter 9\ChessQueens.cs" />
+    <Compile Include="Chapter 9\MagicIndex.cs" />
+    <Compile Include="Chapter 9\PaintFill.cs" />
+    <Compile Include="Chapter 9\Parentheses.cs" />
+    <Compile Include="Chapter 9\Robot.cs" />
+    <Compile Include="Chapter 9\Staircase.cs" />
+    <Compile Include="Chapter 9\StringPermutations.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />
