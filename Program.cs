@@ -73,7 +73,9 @@ namespace LearningProject
             //Chapter_9.Cents.RunCents();
             //Chapter_9.ChessQueens.RunChessQueens();
             //Chapter_9.BoxStack.RunBoxStack();
-            Chapter_9.BooleanExpression.RunBooleanExpression();
+            //Chapter_9.BooleanExpression.RunBooleanExpression();
+
+            Chapter_11.CombineSortedArrays.RunCombineSortedArrays();
 
             Console.Read();
         }
