@@ -44,7 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter 11\Anagrams.cs" />
     <Compile Include="Chapter 11\CombineSortedArrays.cs" />
+    <Compile Include="Chapter 11\MatrixSearch.cs" />
+    <Compile Include="Chapter 11\PeopleStack.cs" />
+    <Compile Include="Chapter 11\RotatedArray.cs" />
+    <Compile Include="Chapter 11\StringSearch.cs" />
     <Compile Include="Chapter 1\IsStringRotation.cs" />
     <Compile Include="Chapter 1\Permutation.cs" />
     <Compile Include="Chapter 1\Reverse.cs" />

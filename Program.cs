@@ -75,7 +75,12 @@ namespace LearningProject
             //Chapter_9.BoxStack.RunBoxStack();
             //Chapter_9.BooleanExpression.RunBooleanExpression();
 
-            Chapter_11.CombineSortedArrays.RunCombineSortedArrays();
+            //Chapter_11.CombineSortedArrays.RunCombineSortedArrays();
+            //Chapter_11.Anagrams.RunAnagrams();
+            //Chapter_11.RotatedArray.RunRotatedArray();
+            //Chapter_11.StringSearch.RunStringSearch();
+            //Chapter_11.MatrixSearch.RunMatrixSearch();
+            Chapter_11.PeopleStack.RunPeopleStack();
 
             Console.Read();
         }
