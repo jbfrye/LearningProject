@@ -8,7 +8,7 @@ D:\Projects\LearningProject\LearningProject\obj\Debug\LearningProject.pdb
 C:\Users\Jeremy\Documents\GitHub\LearningProject\bin\Debug\LearningProject.exe.config
 C:\Users\Jeremy\Documents\GitHub\LearningProject\bin\Debug\LearningProject.exe
 C:\Users\Jeremy\Documents\GitHub\LearningProject\bin\Debug\LearningProject.pdb
-C:\Users\Jeremy\Documents\GitHub\LearningProject\obj\Debug\LearningProject.csprojAssemblyReference.cache
 C:\Users\Jeremy\Documents\GitHub\LearningProject\obj\Debug\LearningProject.csproj.CoreCompileInputs.cache
 C:\Users\Jeremy\Documents\GitHub\LearningProject\obj\Debug\LearningProject.exe
 C:\Users\Jeremy\Documents\GitHub\LearningProject\obj\Debug\LearningProject.pdb
+C:\Users\Jeremy\Documents\GitHub\LearningProject\obj\Debug\LearningProject.csprojAssemblyReference.cache

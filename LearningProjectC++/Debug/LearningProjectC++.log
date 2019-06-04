@@ -1,0 +1,6 @@
+﻿  LearningProjectC++.cpp
+  PrintFile.cpp
+C:\Users\Jeremy\Documents\GitHub\LearningProject\LearningProjectC++\PrintFile.cpp(36,21): warning C4018:  '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\Jeremy\Documents\GitHub\LearningProject\LearningProjectC++\PrintFile.cpp(36,21): warning C4018:  '<': signed/unsigned mismatch
+  LearningProjectC++.vcxproj -> C:\Users\Jeremy\Documents\GitHub\LearningProject\Debug\LearningProjectC++.exe

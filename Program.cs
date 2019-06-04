@@ -80,7 +80,8 @@ namespace LearningProject
             //Chapter_11.RotatedArray.RunRotatedArray();
             //Chapter_11.StringSearch.RunStringSearch();
             //Chapter_11.MatrixSearch.RunMatrixSearch();
-            Chapter_11.PeopleStack.RunPeopleStack();
+            //Chapter_11.PeopleStack.RunPeopleStack();
+            Chapter_11.TrackTree.RunTrackTree();
 
             Console.Read();
         }
