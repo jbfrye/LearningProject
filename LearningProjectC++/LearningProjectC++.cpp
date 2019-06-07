@@ -3,8 +3,10 @@
 
 #include <iostream>
 #include "PrintFile.cpp"
+#include "MapNode.cpp"
 
 int main()
 {
-	PrintFile::RunPrintFile();
+	//PrintFile::RunPrintFile();
+	MapNode::RunMapNode();
 }
