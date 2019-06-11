@@ -151,9 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aligned_Malloc.cpp" />
     <ClCompile Include="LearningProjectC++.cpp" />
     <ClCompile Include="MapNode.cpp" />
+    <ClCompile Include="My2DAlloc.cpp" />
     <ClCompile Include="PrintFile.cpp" />
+    <ClCompile Include="SmartPointer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,10 +12,11 @@ public:
 	Node()
 	{}
 
-	Node(const int item, Node* ptrNext)
+	Node(const int item, Node* ptrNext1, Node* ptrNext2)
 	{
 		this->data = item;
-		this->ptr1 = ptrNext;
+		this->ptr1 = ptrNext1;
+		this->ptr2 = ptrNext2;
 	}
 
 	Node* NextNode()
@@ -39,7 +40,7 @@ public:
 	Node* GetNode(const int item, Node* nextPtr)
 	{
 		Node* newNode;
-		newNode = new Node(item, nextPtr);
+		newNode = new Node(item, nextPtr, NULL);
 		if (newNode == NULL)
 		{
 			cerr << "Memory allocation failed." << endl;
@@ -79,7 +80,12 @@ public:
 
 	static void RunMapNode()
 	{
-		Node* root = new Node(5, NULL);
+		Node* threeOne = new Node(2, NULL, NULL);
+		Node* threeTwo = new Node(3, NULL, NULL);
+		Node* threeThree = new Node(1, NULL, NULL);
+		Node* twoOne = new Node(4, threeOne, threeTwo);
+		Node* twoTwo = new Node(5, threeThree, NULL);
+		Node* root = new Node(6, twoOne, twoTwo);
 		Node* results = MapNode::copy_structure(root);
 	}
 };
