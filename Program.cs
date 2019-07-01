@@ -81,7 +81,11 @@ namespace LearningProject
             //Chapter_11.StringSearch.RunStringSearch();
             //Chapter_11.MatrixSearch.RunMatrixSearch();
             //Chapter_11.PeopleStack.RunPeopleStack();
-            Chapter_11.TrackTree.RunTrackTree();
+            //Chapter_11.TrackTree.RunTrackTree();
+
+            //HackerRank.SherlockAndAnagrams.RunSherlockAndAnagrams();
+            //HackerRank.CountTriplets.RunCountTriplets();
+            HackerRank.MoreLinkedLists.RunMoreLinkedLists();
 
             Console.Read();
         }

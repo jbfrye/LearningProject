@@ -113,6 +113,9 @@
     <Compile Include="Chapter 9\Staircase.cs" />
     <Compile Include="Chapter 9\StringPermutations.cs" />
     <Compile Include="Graph.cs" />
+    <Compile Include="HackerRank\CountTriplets.cs" />
+    <Compile Include="HackerRank\MoreLinkedLists.cs" />
+    <Compile Include="HackerRank\SherlockAndAnagrams.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Program.cs" />
@@ -123,5 +126,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
