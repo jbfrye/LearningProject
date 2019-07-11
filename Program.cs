@@ -85,7 +85,8 @@ namespace LearningProject
 
             //HackerRank.SherlockAndAnagrams.RunSherlockAndAnagrams();
             //HackerRank.CountTriplets.RunCountTriplets();
-            HackerRank.MoreLinkedLists.RunMoreLinkedLists();
+            //HackerRank.MoreLinkedLists.RunMoreLinkedLists();
+            HackerRank.SherlockAndValidString.Run();
 
             Console.Read();
         }

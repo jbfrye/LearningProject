@@ -116,6 +116,7 @@
     <Compile Include="HackerRank\CountTriplets.cs" />
     <Compile Include="HackerRank\MoreLinkedLists.cs" />
     <Compile Include="HackerRank\SherlockAndAnagrams.cs" />
+    <Compile Include="HackerRank\SherlockAndValidString.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Program.cs" />
